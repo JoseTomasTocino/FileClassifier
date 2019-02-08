@@ -15,7 +15,16 @@ public:
     explicit Window(QWidget *parent = 0);
     ~Window();
 
+private slots:
+    void on_btnBrowseSourceFolder_clicked();
+
+    void on_btnBrowseOutputFolder_clicked();
+
+    void on_btnRun_clicked();
+
 private:
+    QString browseDirectory(const QString & dialogTitle);
+
     Ui::Window *ui;
 };
 
