@@ -28,7 +28,8 @@ SOURCES += \
         Window.cpp
 
 HEADERS += \
-        Window.h
+        Window.h \
+    ClassificationOptions.h
 
 FORMS += \
         Window.ui
