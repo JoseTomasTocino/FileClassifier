@@ -18,6 +18,7 @@ struct ClassificationOptions {
     bool mUseCopy = false;
     bool mUseExtensionFolders = false;
     bool mRecursive = false;
+    bool mOnlyMedia = false;
 };
 
 #endif // CLASSIFICATIONOPTIONS_H
