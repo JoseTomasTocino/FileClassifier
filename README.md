@@ -1,7 +1,5 @@
 # OpenFileClassifier
 
-OpenFileClassifier is Windows application to easily classify files in a folder according to their extension.
-=======
 OpenFileClassifier is Windows application to easily classify files in a folder according to their extension. The user chooses the source and output folder, and the software will, by default, classify the files in folders according to their extension, so all `jpeg` files will be stored in a folder called `jpeg` and so on. Pretty useful to organize your _Downloads_ folder, which is exactly why I built this software in the first place.
 
 ![image](https://github.com/JoseTomasTocino/FileClassifier/assets/648833/53571ec4-1364-4513-96ec-61d2c3ac7804)
